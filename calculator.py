@@ -1,6 +1,4 @@
 from tkinter import *
-
-
 # created class for GUI of calculator
 class Calculator:
     

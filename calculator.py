@@ -1,10 +1,7 @@
 
 from tkinter import *
 
-
-
-
-#Create a calculator class
+# created class for GUI of calculator
 class Calculator:
 
 
@@ -30,10 +27,8 @@ class Calculator:
 
         #Execute the .creteButton() method
         self.createButton()
-
-
-
-
+        
+        
     def createButton(self):
 
         '''
@@ -131,3 +126,4 @@ if __name__=='__main__':
     
     #Executable loop on the application, waits for user input
     root.mainloop()
+
